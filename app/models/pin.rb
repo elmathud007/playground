@@ -3,10 +3,10 @@ class Pin < ActiveRecord::Base
 	belongs_to :user
 
 	has_attached_file :image, :styles => { :medium => "300x300>" }
-  validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
-  :default_url => "/images/:style/missing.png",
+  validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/,
+  
   :url  => ":s3_domain_url",
-    :path => "public/avatars/:id/:style_:basename.:extension",
+    :path => "public/medium/:id/:style_:basename.:extension",
     :storage => :fog,
     :fog_credentials => {
         provider: 'AWS',
