@@ -11891,3 +11891,304 @@ Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-01-13 08:42:58 +0000
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-13 08:42:58 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-25 11:23:49 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"   ORDER BY created_at DESC
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/index.html.haml within layouts/application (29.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 478ms (Views: 452.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/pins.css?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-25 11:23:50 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-25 11:41:55 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"   ORDER BY created_at DESC
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/index.html.haml within layouts/application (35.5ms)
+Completed 200 OK in 2598ms (Views: 2582.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/pins.css?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-01-25 11:41:58 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"   ORDER BY created_at DESC
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 170ms (Views: 168.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:02 +0000
+
+
+Started GET "/pins/1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins"  WHERE "pins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "votes"  WHERE "votes"."votable_id" = ? AND "votes"."votable_type" = ? AND "votes"."vote_flag" = 't' AND "votes"."vote_scope" IS NULL  [["votable_id", 1], ["votable_type", "Pin"]]
+  Rendered pins/show.html.haml within layouts/application (15.8ms)
+Completed 200 OK in 154ms (Views: 152.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/pins.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-25 11:42:04 +0000
